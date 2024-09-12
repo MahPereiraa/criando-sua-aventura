@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>Em busca da Floresta Encantada</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.PNG" alt="">
+            <p>Eu e meus amigos encontramos enterrado um mapa antigo que leva a um tesouro escondido em uma Floresta julgada Encantada. 
+            Então decidimos entrar nessa aventura.</p>
+            <button class="btn-proximo" data-proximo="1">Caminho do mapa</button>
+            <button class="btn-proximo" data-proximo="2">Trilha alternativa</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Nós encontramos um guardião mágico que exige um enigma para 
+            passar. O que faremos?</p>
+            <button class="btn-proximo" data-proximo="3">Resolver o enigma</button>
+            <button class="btn-proximo" data-proximo="4">Tentar convencer o guardião a deixar-nos passar.</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Ao seguir a trilha alternativa, nós encontramos um mapa antigo com novas instruções. 
+                E agora? O que faremos?</p>
+                <button class="btn-proximo" data-proximo="5">Seguir as novas instruções do mapa</button>
+                <button class="btn-proximo" data-proximo="6">Continuar explorando a trilha alternativa sem o novo mapa.</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>O enigma é resolvido e o guardião permite a passagem. 
+                Ao passar, encontramos um rio largo no caminho, então decidimos construir uma ponte.</p>
+                <button class="btn-proximo" data-proximo="7">Construir uma ponte improvisada</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desisitindo da aventura">
+            <p>A tentativa de persuasão falha e o guardião impede a passagem.
+                Então decidimos voltar e deixar essa aventura de lado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>O mapa levou a uma caverna misteriosa. E então decidimos explora-la.</p>
+                <button class="btn-proximo" data-proximo="8">Explorar a caverna.</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desisitindo da aventura">
+            <p>A trilha alternativa leva a uma área perigosa. 
+                E após pensar muito, decidimos não enfrentar esses perigos.</p>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>A ponte é construída com sucesso, e vocês continuam a jornada.</p>
+                <button class="btn-proximo" data-proximo="9">Seguir à esquerda do rio</button>
+                <button class="btn-proximo" data-proximo="10">Seguir à direita do rio</button>
+        </div>
+        
+        <div class="passo" id="passo-8">
+            <p>Ao entrar na caverna, percebemos que era apenas uma passagem e no fim, levava a um rio.</p>
+                <button class="btn-proximo" data-proximo="9">Seguir à esquerda do rio</button>
+                <button class="btn-proximo" data-proximo="10">Seguir à direita do rio</button>
+        </div>        
+
+        <div class="passo" id="passo-9">
+            <img src="img/cenario-passo10-cidade-perdida.png" alt="Encontrando a Vila isolada da Floresta Encantada.">
+            <p>Á esquerda do rio leva  a uma  vila isolada que vive em harmonia com a natureza na Floresta Encantada.</p>
+                <button class="btn-proximo" data-proximo="11">Explorar a vila.</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Á direita do rio termina em uma área pantanosa. Apesar de belas vistas, não há sinais da Floresta Encantada.</p>
+                <button class="btn-proximo" data-proximo="12">Explorar a vila pelo lado esquerdo do rio.</button>
+        </div>
+
+         <div class="passo" id="passo-11">
+            <img src="img/cenario-passo10-cidade-perdida.png" >          
+            <p>Na vila, descobrimos tesouros inimagináveis e decidimos nos dedicar a estudar e preservar este lugar.</p>  
+        </div>
+        
+        <div class="passo" id="passo-12">
+            <img src="img/cenario-passo10-cidade-perdida.png" alt="Encontrando a Vila isolada da Floresta Encantada.">
+            <p>Á esquerda do rio leva  a uma  vila isolada que vive em harmonia com a natureza na Floresta Encantada.</p>
+                <button class="btn-proximo" data-proximo="13">Explorar a vila.</button>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <img src="img/cenario-passo10-cidade-perdida.png" >          
+            <p>Na vila, descobrimos tesouros inimagináveis e decidimos nos dedicar a estudar e preservar este lugar.</p>  
+        </div>
+
+       
+
+
+
+
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
